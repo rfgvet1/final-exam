@@ -70,7 +70,7 @@ Install ownCloud by performing the following steps.
 	
 	``Options +FollowSymlinks``
 	
-	`AllowOverride All``
+	``AllowOverride All``
 	
 	``<IfModule mod_dav.c>``
 	
@@ -165,10 +165,10 @@ To connect to ownCloud with a desktop, install the [Desktop Synchronization Clie
 
 To connect to ownCloud with a mobile device, install the [ownCloud mobile application](https://owncloud.com/apps/).  After doing so, users can log-in and synchronize, upload, and download files from any compatible mobile device including phones and tablets.
 
-Optionally, use your browser and connect using URL or IP. For example:
+Connect with your browser pointing to your ownCloud server with IP and, optionally, port number. For example:
 
 ``https://www.example.org/owncloud``
-``https://127.0.0.1/owncloud``
+``https://127.0.0.1:8080/owncloud``
 
 
 For detailed information on using the clients, see the [ownCloud Client User Manual](https://doc.owncloud.org/server/8.2/user_manual/files/access_webdav.html).
